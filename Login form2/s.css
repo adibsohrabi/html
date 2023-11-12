@@ -11,11 +11,12 @@ body{
 .main{
 	/* width: 300px; */
 	/* height: 500px; */
-    background: rgb(61, 61, 212);
+    background: rgb(5, 5, 5);
 	overflow: hidden;
-	border-radius: 60px;
-    animation: free-learn 5s   alternate-reverse;
-    /* padding: 35px; */
+	border-radius: 25%;
+    animation: free-learn 5s   alternate-reverse infinite;
+    padding: 10px;
+    /* background-color: transparent; */
 }
 
 label{
@@ -39,6 +40,7 @@ input{
     border-color: rgb(115, 13, 199);
     border-radius: 10px 100px 50px 100px;
     outline: none;
+    opacity: 70%;
     
 }
 input:focus, textarea:focus {
@@ -63,6 +65,7 @@ button{
 	border-radius: 10px 100px 100px 100px;
 	transition: 0.6s ease-in;
 	cursor: pointer;
+    opacity: 80%;
 }
 button:hover{
     background:#b1a7c4;
@@ -71,11 +74,14 @@ button:hover{
 .login{
     height: 500px;
     width:400px;
-    background: #111111;
-    transition: 1s ease-in-out;
+    /* background: #111111; */
+    background-image: url(../public/img/2.jpg);
+    background-size: cover;
+    transition: 1s ease;
+    border-style: ridge;
     /* border-radius: 10px 110px / 120px; */
-    border-radius: 14em;
-    box-shadow: 5px 5px 50px 50px rgb(111, 0, 255)
+    border-radius: 80%;
+    box-shadow: 5px 5px 50px 50px rgb(0, 255, 106)
   
     
     

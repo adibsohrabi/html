@@ -6,14 +6,14 @@
     <title>Login form</title>
     <link rel="stylesheet" href="s.css">
 </head>
-<body>
-     <div class="main">
+<body class="main">
+     <div >
         <div class="login">
             <form >
                 <label for="">Login</label>
-                <input type="email" placeholder="User name">
-                <input type="password" placeholder="password">
-                <button>Login</button>
+                <input id="username" type="email" placeholder="User Name"  >
+                <input id="password" type="password" placeholder="password">
+                <button onclick="checkuser()">Login</button>
             </form>
         </div>
         
@@ -21,3 +21,18 @@
     
 </body>
 </html>
+<script type="text/javascript">
+    function checkuser(){
+        // alert("Welcome to check javascript");
+        var usernameGet=document.getElementById('username').value;
+        var Pass=document.getElementById('password').value;
+        if((usernameGet =="a@a.com") && (Pass=="1234"))
+            { 
+                alert("حله");
+            }
+        else
+        {
+            alert("مشکل داره")
+        }
+}
+</script>
